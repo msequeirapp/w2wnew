@@ -1,5 +1,7 @@
 "use client";
 import React from "react";
+import { useUser } from "@auth0/nextjs-auth0/client";
+
 
 function MainComponent() {
   const { data: user, loading: userLoading } = useUser();
